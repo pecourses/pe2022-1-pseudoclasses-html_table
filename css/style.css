@@ -1,19 +1,26 @@
-/* div:first-child {
+div {
+  margin: 10px;
+}
+/* з початку */
+/* div:nth-child(3) {
+  color: brown;
+} */
+
+/* з кінця */
+/* div:nth-last-child(5) {
+  color: blue;
+} */
+
+/* непарні */
+/* div:nth-child(odd) {
+  background-color: aqua;
+} */
+
+/* пірні */
+/* div:nth-child(even) {
+  background-color: orange;
+} */
+
+div:nth-child(3n + 4) {
   color: blue;
 }
-
-div:first-of-type {
-  background-color: blueviolet;
-}
-
-div:last-child {
-  color: red;
-}
-
-div:last-of-type {
-  background-color: aquamarine;
-}
-
-p:first-of-type {
-  background-color: rebeccapurple;
-} */
