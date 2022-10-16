@@ -1,21 +1,19 @@
-a {
-  text-decoration: none;
-  color: inherit;
-  /* text-shadow: 0 0 3px blue; */
-}
-/*
-a:hover {
-  text-shadow: 0 0 3px red;
+/* div:first-child {
+  color: blue;
 }
 
-div:hover {
-  cursor: pointer;
-} */
+div:first-of-type {
+  background-color: blueviolet;
+}
 
-/* a:visited {
+div:last-child {
   color: red;
-} */
-
-a:active {
-  color: yellow;
 }
+
+div:last-of-type {
+  background-color: aquamarine;
+}
+
+p:first-of-type {
+  background-color: rebeccapurple;
+} */
